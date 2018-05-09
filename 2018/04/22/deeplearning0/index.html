@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="米津玄师," />
+  <meta name="keywords" content="CNN," />
 
 
 
@@ -79,18 +79,25 @@
 
 
 
-<meta name="description" content="将生活带给你的如柠檬的酸楚 酿成犹如柠檬汽水味般的甘甜">
-<meta name="keywords" content="米津玄师">
+<meta name="description" content="#深度学习简介(一)——卷积神经网络&amp;emsp;&amp;emsp;本文的主要目的，是简单介绍时下流行的深度学习算法的基础知识，本人也看过许多其他教程，感觉其中大部分讲的还是太过深奥，于是便有了写一篇科普文的想法。博主也是现学现卖，文中如有不当之处，请各位指出，共同进步。&amp;emsp;&amp;emsp;本文的目标读者是对机器学习和神经网络有一定了解的同学（包括：梯度下降、神经网络、反向传播算法等），机器学习的相关">
+<meta name="keywords" content="CNN">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Lemon">
-<meta property="og:url" content="http://yoursite.com/2018/05/01/Lemon/index.html">
+<meta property="og:title" content="deeplearning0">
+<meta property="og:url" content="http://yoursite.com/2018/04/22/deeplearning0/index.html">
 <meta property="og:site_name" content="ZHD_BLOG">
-<meta property="og:description" content="将生活带给你的如柠檬的酸楚 酿成犹如柠檬汽水味般的甘甜">
+<meta property="og:description" content="#深度学习简介(一)——卷积神经网络&amp;emsp;&amp;emsp;本文的主要目的，是简单介绍时下流行的深度学习算法的基础知识，本人也看过许多其他教程，感觉其中大部分讲的还是太过深奥，于是便有了写一篇科普文的想法。博主也是现学现卖，文中如有不当之处，请各位指出，共同进步。&amp;emsp;&amp;emsp;本文的目标读者是对机器学习和神经网络有一定了解的同学（包括：梯度下降、神经网络、反向传播算法等），机器学习的相关">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-01T15:09:39.000Z">
+<meta property="og:image" content="http://yoursite.com/pictures/pic1.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/deeplearning0/deeplearning0/pic2.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/deeplearning0/deeplearning0/pic3.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/deeplearning0/deeplearning0/pic4.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/deeplearning0/deeplearning0/pic5.jpg">
+<meta property="og:image" content="https://www.cnblogs.com/alexcai/p/5506806.html">
+<meta property="og:updated_time" content="2018-05-09T07:49:45.682Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lemon">
-<meta name="twitter:description" content="将生活带给你的如柠檬的酸楚 酿成犹如柠檬汽水味般的甘甜">
+<meta name="twitter:title" content="deeplearning0">
+<meta name="twitter:description" content="#深度学习简介(一)——卷积神经网络&amp;emsp;&amp;emsp;本文的主要目的，是简单介绍时下流行的深度学习算法的基础知识，本人也看过许多其他教程，感觉其中大部分讲的还是太过深奥，于是便有了写一篇科普文的想法。博主也是现学现卖，文中如有不当之处，请各位指出，共同进步。&amp;emsp;&amp;emsp;本文的目标读者是对机器学习和神经网络有一定了解的同学（包括：梯度下降、神经网络、反向传播算法等），机器学习的相关">
+<meta name="twitter:image" content="http://yoursite.com/pictures/pic1.jpg">
 
 
 
@@ -120,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/01/Lemon/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/22/deeplearning0/"/>
 
 
 
 
 
-  <title>Lemon | ZHD_BLOG</title>
+  <title>deeplearning0 | ZHD_BLOG</title>
   
 
 
@@ -253,7 +260,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/01/Lemon/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/22/deeplearning0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="HEYZHD">
@@ -270,7 +277,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Lemon</h1>
+          <h1 class="post-title" itemprop="name headline">deeplearning0</h1>
         
 
         <div class="post-meta">
@@ -282,8 +289,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-01T23:03:08+08:00">
-                2018-05-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-22T15:01:00+08:00">
+                2018-04-22
               </time>
             
 
@@ -305,8 +312,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/诗/" itemprop="url" rel="index">
-                    <span itemprop="name">诗</span>
+                  <a href="/categories/deeplearning/" itemprop="url" rel="index">
+                    <span itemprop="name">deeplearning</span>
                   </a>
                 </span>
 
@@ -342,13 +349,28 @@
       
 
       
-        <pre><code>将生活带给你的如柠檬的酸楚 酿成犹如柠檬汽水味般的甘甜
-</code></pre><a id="more"></a>
-<pre><code>听着这首曲子，感觉就像穿过一条幽暗且漫长的隧道，暗想着前方究竟是救赎自我的光芒，还是玩弄人心的夜灯。但无论是怎样的末尾，我依旧怀揣着&quot;期盼着幸福&quot;这样的心灵，当全曲的高潮浮起，那道光芒就在隧道的前端，我睁开了双眸，张开了双臂，淹没在了光芒之中。
-</code></pre><h3 id="Lemon"><a href="#Lemon" class="headerlink" title="Lemon"></a>Lemon</h3><h5 id="米津玄师"><a href="#米津玄师" class="headerlink" title="米津玄师"></a>米津玄师</h5><hr>
-<blockquote>
-<p>梦(ゆめ)ならばどれほどよかったでしょう<br>如果这一切都是梦境该有多好<br>未(いま)だにあなたのことを梦(ゆめ)にみる<br>至今仍能与你在梦中相遇<br>忘(わす)れた物(もの)を取(と)りに帰(かえ)るように<br>如同取回遗忘之物一般<br>古(ふる)びた思(おも)い出(で)の埃(ほこり)を払(はら)う<br>细细拂去将回忆覆盖的尘埃<br>戻(もど)らない幸(しあわ)せがあることを<br>最终是你让我懂得了<br>最後(さいご)にあなたが教(おし)えてくれた<br>这世间亦有无法挽回的幸福<br>言(い)えずに隠(かく)してた昏(くら)い过去(かこ)も<br>那些未对他人提及过的黑暗往事<br>あなたがいなきゃ永远(えいえん)に昏(くら)いまま<br>如果不曾有你的话 它们将永远沉睡在黑暗中<br>きっともうこれ以上(いじょう) 伤(きず)つくことなど<br>我知道这世上一定没有<br>ありはしないとわかっている<br>比这更令人难过的事情了<br>あの日(ひ)の悲(かな)しみさえ<br>那日的悲伤<br>あの日(ひ)の苦(くる)しみさえ<br>与那日的痛苦<br>そのすべてを爱(あい)してた あなたとともに<br>连同深爱着这一切的你<br>胸(むね)に残(のこ)り离(はな)れない<br>化作了深深烙印在我心中的<br>苦(にが)いレモン(れもん)の匂(にお)い<br>苦涩柠檬的香气<br>雨(あめ)が降(ふ)り止(や)むまでは帰(かえ)れない<br>在雨过天晴前都无法归去<br>今(いま)でもあなたはわたしの光(ひかり)<br>时至今日 你仍是我的光芒<br>暗闇(くらやみ)であなたの背(せ)をなぞった<br>在黑暗中追寻着你的身影<br>その轮郭(りんかく)を鲜明(せんめい)に覚(おぼ)えている<br>那轮廓至今仍鲜明地刻印于心<br>受(う)け止(と)めきれないものと出会(であ)うたび<br>每当遇到无法承受的苦痛时<br>溢(あふ)れてやまないのは涙(なみだ)だけ<br>总是不禁泪如泉涌<br>何(なに)をしていたの<br>你都经历过什么<br>何(なに)を见(み)ていたの<br>又目睹过什么呢<br>わたしの知(し)らない横颜(よこがお)で<br>脸上浮现着我不曾见过的神情<br>どこかであなたが今(いま)<br>如果你正在什么地方<br>わたしと同(おな)じ様(よう)な<br>与我一样<br>涙(なみだ)にくれ 淋(さび)しさの中(なか)にいるなら<br>终日过着以泪洗面的寂寞生活的话<br>わたしのことなどどうか 忘(わす)れてください<br>就请你将我的一切全部遗忘吧<br>そんなことを心(こころ)から愿(ねが)うほどに<br>这是我发自内深处唯一的祈愿<br>今(いま)でもあなたはわたしの光(ひかり)<br>时至今日 你仍是我的光芒<br>自分(じぶん)が思(おも)うより 恋(こい)をしていたあなたに<br>我深深地恋慕着你 甚至超出了我自己的想象<br>あれから思(おも)うように 息(いき)ができない<br>自此每当想起你 都如同窒息般痛苦<br>あんなに侧(そば)にいたのにまるで嘘(うそ)みたい<br>你曾亲密伴我身旁 如今却如烟云般消散<br>とても忘(わす)れられないそれだけが确(たし)か<br>唯一能确定的是 我永远都不会将你遗忘<br>あの日(ひ)の悲(かな)しみさえ<br>那日的悲伤<br>あの日(ひ)の苦(くる)しみさえ<br>与那日的痛苦<br>その全(すべ)てを爱(あい)してたあなたと共(とも)に<br>连同深爱着这一切的你<br>胸(むね)に残(のこ)り离(はな)れない<br>化作了深深烙印在我心中的<br>苦(にが)いレモン(れもん)の匂(にお)い<br>苦涩柠檬的香气<br>雨(あめ)が降(ふ)り止(や)むまでは帰(かえ)れない<br>在雨过天晴前都无法归去<br>切(き)り分(わ)けた果実(かじつ)の片方(かたほう)の様(よう)に<br>如同被切开的半个柠檬一般<br>今(いま)でもあなたはわたしの光(ひかり)<br>时至今日 你仍是我的光芒</p>
-</blockquote>
+        <p>#深度学习简介(一)——卷积神经网络<br>&emsp;&emsp;本文的主要目的，是简单介绍时下流行的深度学习算法的基础知识，本人也看过许多其他教程，感觉其中大部分讲的还是太过深奥，于是便有了写一篇科普文的想法。博主也是现学现卖，文中如有不当之处，请各位指出，共同进步。<br>&emsp;&emsp;本文的目标读者是对机器学习和神经网络有一定了解的同学（包括：梯度下降、神经网络、反向传播算法等），机器学习的相关知识强烈推荐<a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener">吴恩达大神的机器学习课程</a></p>
+<p>####深度学习简介<br>&emsp;&emsp;深度学习是指多层神经网络上运用各种机器学习算法解决图像，文本等各种问题的算法集合。深度学习从大类上可以归入神经网络，不过在具体实现上有许多变化。深度学习的核心是特征学习，旨在通过分层网络获取分层次的特征信息，从而解决以往需要人工设计特征的重要难题。深度学习是一个框架，包含多个重要算法: </p>
+<ul>
+<li>Convolutional Neural Networks(CNN)卷积神经网络</li>
+<li>AutoEncoder自动编码器</li>
+<li>Sparse Coding稀疏编码</li>
+<li>Restricted Boltzmann Machine(RBM)限制波尔兹曼机</li>
+<li>Deep Belief Networks(DBN)深信度网络</li>
+<li>Recurrent neural Network(RNN)多层反馈循环神经网络神经网络</li>
+</ul>
+<p>&emsp;&emsp;对于不同问题(图像，语音，文本)，需要选用不同网络模型才能达到更好效果。<br>&emsp;&emsp;此外，最近几年增强学习(Reinforcement Learning)与深度学习的结合也创造了许多了不起的成果，AlphaGo就是其中之一。</p>
+<p>####人类视觉原理<br>&emsp;&emsp;深度学习的许多研究成果，离不开对大脑认知原理的研究，尤其是视觉原理的研究。<br>&emsp;&emsp;1981 年的诺贝尔医学奖，颁发给了 David Hubel（出生于加拿大的美国神经生物学家） 和TorstenWiesel，以及 Roger Sperry。前两位的主要贡献，是“发现了视觉系统的信息处理”，可视皮层是分级的。<br>&emsp;&emsp;人类的视觉原理如下：从原始信号摄入开始（瞳孔摄入像素 Pixels），接着做初步处理（大脑皮层某些细胞发现边缘和方向），然后抽象（大脑判定，眼前的物体的形状，是圆形的），然后进一步抽象（大脑进一步判定该物体是只气球）。下面是人脑进行人脸识别的一个示例：<br><img src="../../../../pictures/pic1.jpg" alt=""><br>&emsp;&emsp;对于不同的物体，人类视觉也是通过这样逐层分级，来进行认知的：<br><img src="deeplearning0/pic2.jpg" alt=""><br>&emsp;&emsp;我们可以看到，在最底层特征基本上是类似的，就是各种边缘，越往上，越能提取出此类物体的一些特征（轮子、眼睛、躯干等），到最上层，不同的高级特征最终组合成相应的图像，从而能够让人类准确的区分不同的物体。<br>&emsp;&emsp;那么我们可以很自然的想到：可以不可以模仿人类大脑的这个特点，构造多层的神经网络，较低层的识别初级的图像特征，若干底层特征组成更上一层特征，最终通过多个层级的组合，最终在顶层做出分类呢？答案是肯定的，这也是许多深度学习算法（包括CNN）的灵感来源。</p>
+<p>####卷积网络介绍<br>&emsp;&emsp;卷积神经网络是一种多层神经网络，擅长处理图像特别是大图像的相关机器学习问题。<br>&emsp;&emsp;卷积网络通过一系列方法，成功将数据量庞大的图像识别问题不断降维，最终使其能够被训练。CNN最早由Yann LeCun提出并应用在手写字体识别上（MINST）。LeCun提出的网络称为LeNet，其网络结构如下：<br><img src="deeplearning0/pic3.jpg" alt=""><br>&emsp;&emsp;这是一个最典型的卷积网络，由卷积层、池化层、全连接层组成。其中卷积层与池化层配合，组成多个卷积组，逐层提取特征，最终通过若干个全连接层完成分类。<br>&emsp;&emsp;卷积层完成的操作，可以认为是受局部感受野概念的启发，而池化层，主要是为了降低数据维度。<br>&emsp;&emsp;综合起来说，CNN通过卷积来模拟特征区分，并且通过卷积的权值共享及池化，来降低网络参数的数量级，最后通过传统神经网络完成分类等任务。</p>
+<p>####降低参数量级<br>&emsp;&emsp;为什么要降低参数量级？从下面的例子就可以很容易理解了。<br>&emsp;&emsp;如果我们使用传统神经网络方式，对一张图片进行分类，那么，我们把图片的每个像素都连接到隐藏层节点上，那么对于一张1000x1000像素的图片，如果我们有1M隐藏层单元，那么一共有10^12个参数，这显然是不能接受的。（如下图所示）<br><img src="deeplearning0/pic4.jpg" alt=""><br>&emsp;&emsp;但是我们在CNN里，可以大大减少参数个数，我们基于以下两个假设：</p>
+<ol>
+<li>最底层特征都是局部性的，也就是说，我们用10x10这样大小的过滤器就能表示边缘等底层特征</li>
+<li>图像上不同小片段，以及不同图像上的小片段的特征是类似的，也就是说，我们能用同样的一组分类器来描述各种各样不同的图像</li>
+</ol>
+<p>&emsp;&emsp;基于以上两个，假设，我们就能把第一层网络结构简化如下：</p>
+<p><img src="deeplearning0/pic5.jpg" alt=""></p>
+<p>&emsp;&emsp;我们用100个10x10的小过滤器，就能够描述整幅图片上的底层特征。</p>
+<p><img src="https://www.cnblogs.com/alexcai/p/5506806.html" alt=""></p>
 
       
     </div>
@@ -366,7 +388,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/米津玄师/" rel="tag"># 米津玄师</a>
+            <a href="/tags/CNN/" rel="tag"># CNN</a>
           
         </div>
       
@@ -379,8 +401,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/22/deeplearning0/" rel="next" title="deeplearning0">
-                <i class="fa fa-chevron-left"></i> deeplearning0
+              <a href="/2018/03/22/Bright-Star/" rel="next" title="Bright Star">
+                <i class="fa fa-chevron-left"></i> Bright Star
               </a>
             
           </div>
@@ -388,6 +410,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/01/Lemon/" rel="prev" title="Lemon">
+                Lemon <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -439,17 +465,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -513,22 +530,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Lemon"><span class="nav-number">1.</span> <span class="nav-text">Lemon</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#米津玄师"><span class="nav-number">1.0.1.</span> <span class="nav-text">米津玄师</span></a></li></ol></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
